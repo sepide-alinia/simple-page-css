@@ -1,0 +1,178 @@
+
+
+@media (max-width:500px) {
+
+    *{
+        font-weight:300 ;
+        font-size: small;
+    }
+
+    .top-header{
+        display: flex;
+        justify-content: space-around;
+        padding: .5rem;
+    }
+    .btnTop{
+        padding: .3rem;
+        border-radius: 8px;
+    }
+    .Hcontainer nav{
+    flex-direction: column;
+    margin-bottom: 1rem;
+    }
+
+
+    .items{
+        margin: 0.5rem;
+        justify-content: center;
+    }
+
+
+
+
+    #first , #secnd {
+        padding: .4rem;
+        border-radius: .1;
+
+    }
+
+    #section {
+        flex-direction: column;
+        margin: 5rem .2rem;
+    }
+
+    #grid-cntr {
+        padding: 0 ;
+    }
+
+    #flexcotainer {
+     margin: 10rem 0 5rem ;
+     flex-direction: column-reverse;
+    }
+    #flexcotainer #text{
+        margin-top: 2.5rem;
+        padding-right: 0px;
+    }
+
+    #text ul{
+        padding: 0 1rem;
+    }
+
+    #text h2 , #text p {
+        width: 100%;
+        padding: 0 2rem;
+      }
+
+    #flexcotainer #img{
+        flex-basis: 250px;
+        margin: 0;
+    }
+
+    #article p {
+        padding: 0 1rem;
+    }
+
+
+    .holder{
+        margin: 1rem 1rem;
+    }
+
+    #article{
+    height: 80vh;
+    }
+
+
+    .btn{
+        margin-right: 2rem;
+    }
+
+    #grid-cntr{
+        display: grid;
+        grid-template-columns: 1fr  1fr ;
+        gap: 1rem;
+        padding: 0 1rem ;
+    }
+
+    .copyright{
+        grid-template-columns: 1fr;
+        grid-column: 1/ span 2;
+    }
+
+
+}
+
+@media (min-width:501px) and (max-width:768px){
+
+    .top-header{
+        display: flex;
+        justify-content: space-around;
+        padding: .5rem;
+    }
+    .btnTop{
+        padding: .3rem;
+        border-radius: 8px;
+    }
+    .Hcontainer nav{
+    flex-direction: column;
+    margin-bottom: 1rem;
+    }
+
+
+    .items{
+        margin: 0.5rem;
+        justify-content: center;
+    }
+
+
+
+
+    #first , #secnd {
+        padding: .4rem;
+        border-radius: .1;
+
+    }
+
+    #article{
+        padding: 0 1rem;
+        height: 90vh;
+    }
+
+    #section {
+        flex-direction: column;
+        margin: 5rem .2rem;
+    }
+
+    .holder{
+        margin: 1rem 1rem;
+    }
+
+    #flexcotainer {
+        margin: 10rem 0 5rem ;
+        flex-direction: column-reverse;
+    }
+
+    #flexcotainer #img{
+        flex-basis: 500px;
+        margin: 0;
+    }
+
+    #text{
+        padding: 0.5rem;
+    }
+
+
+}
+
+@media (min-width:769px) and (max-width:1200px){
+
+
+    #section {
+        display: grid;
+        margin: 8rem 2rem;
+        grid-template-columns: 1fr 1fr
+    }
+
+    .holder:nth-child(3){
+       display: none;
+    }
+}
